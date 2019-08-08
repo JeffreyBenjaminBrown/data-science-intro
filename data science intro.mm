@@ -1,0 +1,154 @@
+<map version="freeplane 1.2.0">
+<!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
+<node TEXT="data science intro" ID="ID_1723255651" CREATED="1283093380553" MODIFIED="1565290922779"><hook NAME="MapStyle" zoom="1.771">
+
+<map_styles>
+<stylenode LOCALIZED_TEXT="styles.root_node">
+<stylenode LOCALIZED_TEXT="styles.predefined" POSITION="right">
+<stylenode LOCALIZED_TEXT="default" MAX_WIDTH="600" COLOR="#000000" STYLE="as_parent">
+<font NAME="SansSerif" SIZE="10" BOLD="false" ITALIC="false"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="defaultstyle.details"/>
+<stylenode LOCALIZED_TEXT="defaultstyle.note"/>
+<stylenode LOCALIZED_TEXT="defaultstyle.floating">
+<edge STYLE="hide_edge"/>
+<cloud COLOR="#f0f0f0" SHAPE="ROUND_RECT"/>
+</stylenode>
+</stylenode>
+<stylenode LOCALIZED_TEXT="styles.user-defined" POSITION="right">
+<stylenode LOCALIZED_TEXT="styles.topic" COLOR="#18898b" STYLE="fork">
+<font NAME="Liberation Sans" SIZE="10" BOLD="true"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="styles.subtopic" COLOR="#cc3300" STYLE="fork">
+<font NAME="Liberation Sans" SIZE="10" BOLD="true"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="styles.subsubtopic" COLOR="#669900">
+<font NAME="Liberation Sans" SIZE="10" BOLD="true"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="styles.important">
+<icon BUILTIN="yes"/>
+</stylenode>
+</stylenode>
+<stylenode LOCALIZED_TEXT="styles.AutomaticLayout" POSITION="right">
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level.root" COLOR="#000000">
+<font SIZE="18"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level,1" COLOR="#0033ff">
+<font SIZE="16"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level,2" COLOR="#00b439">
+<font SIZE="14"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level,3" COLOR="#990000">
+<font SIZE="12"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level,4" COLOR="#111111">
+<font SIZE="10"/>
+</stylenode>
+</stylenode>
+</stylenode>
+</map_styles>
+</hook>
+<hook NAME="AutomaticEdgeColor" COUNTER="10"/>
+<node TEXT="terms" POSITION="right" ID="ID_1262629755" CREATED="1565291380178" MODIFIED="1565291382287">
+<edge COLOR="#ffff00"/>
+<node TEXT="command line, console" ID="ID_724404632" CREATED="1565291607062" MODIFIED="1565291612610"/>
+<node TEXT="interpreter" ID="ID_545354437" CREATED="1565291616687" MODIFIED="1565291618298"/>
+<node TEXT="compile" ID="ID_914542808" CREATED="1565291382986" MODIFIED="1565291385051">
+<node TEXT="compile-time and runtime" ID="ID_73143180" CREATED="1565291389759" MODIFIED="1565292046125"/>
+</node>
+<node TEXT="execute = run" ID="ID_1374253769" CREATED="1565291385268" MODIFIED="1565291414761"/>
+<node TEXT="algorithm = method" ID="ID_141046959" CREATED="1565291406864" MODIFIED="1565291411217"/>
+<node TEXT="errors" ID="ID_526219382" CREATED="1565291491165" MODIFIED="1565291492027">
+<node TEXT="exception = an expected kind of error" ID="ID_1625852715" CREATED="1565291476199" MODIFIED="1565291483874"/>
+<node TEXT="bug = an unexpected kind of error" ID="ID_1737537111" CREATED="1565291484170" MODIFIED="1565291490368"/>
+</node>
+</node>
+<node TEXT="python" POSITION="right" ID="ID_1388045161" CREATED="1565302139927" MODIFIED="1565302142232">
+<edge COLOR="#7c007c"/>
+<node TEXT="what&apos;s good in python" ID="ID_6728920" CREATED="1565302143703" MODIFIED="1565302147285">
+<node TEXT="huge user base" ID="ID_775630916" CREATED="1565302154760" MODIFIED="1565302339898">
+<node TEXT="maybe the biggest?" ID="ID_668311751" CREATED="1565302341310" MODIFIED="1565302344108"/>
+</node>
+<node TEXT="libraries for everything" ID="ID_1702904229" CREATED="1565302149648" MODIFIED="1565302154535"/>
+<node TEXT="long history (since the early 90s)" ID="ID_408262234" CREATED="1565302171238" MODIFIED="1565302180906"/>
+<node TEXT="fast, reliable" ID="ID_1651780346" CREATED="1565302157317" MODIFIED="1565302164790"/>
+</node>
+<node TEXT="what&apos;s weird in python" ID="ID_434990287" CREATED="1565291949130" MODIFIED="1565302142947">
+<node TEXT="(it&apos;s pretty normal)" ID="ID_1156643142" CREATED="1565302388617" MODIFIED="1565302392158"/>
+<node TEXT="indentation matters" ID="ID_1855677562" CREATED="1565291974279" MODIFIED="1565291977635"/>
+<node TEXT="dynamic typing" ID="ID_1964889956" CREATED="1565291954451" MODIFIED="1565291974008">
+<node TEXT="&quot;if x is a list, do this; if it&apos;s a number, do that&quot;" ID="ID_1712762224" CREATED="1565302284483" MODIFIED="1565302292600"/>
+</node>
+<node TEXT="type puns" ID="ID_86663444" CREATED="1565302213950" MODIFIED="1565302373147">
+<font BOLD="true"/>
+<node TEXT="true + 3" ID="ID_1015082939" CREATED="1565302221456" MODIFIED="1565302226298"/>
+<node TEXT="if []" ID="ID_259841825" CREATED="1565302226911" MODIFIED="1565302230384"/>
+</node>
+</node>
+</node>
+<node TEXT="human time" POSITION="right" ID="ID_120186118" CREATED="1565291203430" MODIFIED="1565291215149">
+<edge COLOR="#00ffff"/>
+<node TEXT="comments are good" ID="ID_1504140555" CREATED="1565302041336" MODIFIED="1565302043274">
+<node TEXT="per-function, per file, per project, per folder" ID="ID_1721715716" CREATED="1565302057754" MODIFIED="1565302065985"/>
+<node TEXT="automated documentation is awesome" ID="ID_25620876" CREATED="1565302046861" MODIFIED="1565302054251"/>
+</node>
+<node TEXT="pseudocode is good" ID="ID_707404240" CREATED="1565302037666" MODIFIED="1565302040956"/>
+<node TEXT="cleaning data is hard" ID="ID_1486366135" CREATED="1565291736110" MODIFIED="1565302117347">
+<node TEXT="cleaning data takes more time than analyzing it" ID="ID_1498885349" CREATED="1565291215773" MODIFIED="1565291246157"/>
+</node>
+<node TEXT="testing (and debugging) is critical" ID="ID_720597096" CREATED="1565291278033" MODIFIED="1565302122330"/>
+</node>
+<node TEXT="coding" POSITION="right" ID="ID_941346847" CREATED="1565290960539" MODIFIED="1565290972643">
+<edge COLOR="#00ff00"/>
+<node TEXT="types" ID="ID_707202688" CREATED="1565290999539" MODIFIED="1565291000696">
+<node TEXT="how to check a type" ID="ID_1615090702" CREATED="1565291030592" MODIFIED="1565291032884"/>
+<node TEXT="comparing data structures" ID="ID_850481779" CREATED="1565291000903" MODIFIED="1565291014505">
+<node TEXT="lists, sets, dictionaries" ID="ID_338101096" CREATED="1565291812488" MODIFIED="1565291849345"/>
+<node TEXT="speed" ID="ID_1969457701" CREATED="1565291851721" MODIFIED="1565291852692"/>
+</node>
+</node>
+<node TEXT="balanced subdivision" ID="ID_1344904648" CREATED="1565301848942" MODIFIED="1565301853445">
+<node TEXT="quicksort" ID="ID_1629288870" CREATED="1565301854057" MODIFIED="1565301855478"/>
+</node>
+<node TEXT="recursion" ID="ID_1096864590" CREATED="1565290977560" MODIFIED="1565290999154">
+<node TEXT="mutual recursion" ID="ID_1477333137" CREATED="1565291894250" MODIFIED="1565291896588"/>
+</node>
+<node TEXT="higher-order programming" ID="ID_1642835308" CREATED="1565291069290" MODIFIED="1565291072172">
+<node TEXT="map" ID="ID_441222589" CREATED="1565291909398" MODIFIED="1565291910752"/>
+</node>
+</node>
+<node TEXT="quality control" POSITION="right" ID="ID_605638826" CREATED="1565291993787" MODIFIED="1565292015936">
+<edge COLOR="#007c00"/>
+<node TEXT="use libraries" ID="ID_842795554" CREATED="1565301883303" MODIFIED="1565301884862"/>
+<node TEXT="bugs" ID="ID_1498952900" CREATED="1565291307361" MODIFIED="1565291308134">
+<node TEXT="type errors" ID="ID_1000306616" CREATED="1565291315017" MODIFIED="1565291316688"/>
+<node TEXT="copying without complete modification" ID="ID_400288837" CREATED="1565291348196" MODIFIED="1565291357579"/>
+<node TEXT="heisenbugs" ID="ID_70434055" CREATED="1565291309361" MODIFIED="1565291314414"/>
+</node>
+<node TEXT="TDD" ID="ID_1188321357" CREATED="1565290954324" MODIFIED="1565290976798">
+<node TEXT="compile-time v. runtime errors" ID="ID_1875745281" CREATED="1565292023355" MODIFIED="1565292037294"/>
+<node TEXT="print statements" ID="ID_737916480" CREATED="1565302432924" MODIFIED="1565302434789"/>
+<node TEXT="assertions" ID="ID_992564301" CREATED="1565292051031" MODIFIED="1565292052853"/>
+<node TEXT="test frameworks" ID="ID_178248170" CREATED="1565292055319" MODIFIED="1565292057877"/>
+</node>
+<node TEXT="Makefiles" ID="ID_1758823732" CREATED="1565302417661" MODIFIED="1565302419470"/>
+</node>
+<node TEXT="VCS and git" POSITION="right" ID="ID_709215824" CREATED="1565290927988" MODIFIED="1565290941106">
+<edge COLOR="#ff0000"/>
+<node TEXT="git init" ID="ID_1405518409" CREATED="1565291527539" MODIFIED="1565291529059"/>
+<node TEXT="git add" ID="ID_885625961" CREATED="1565291529430" MODIFIED="1565291538359">
+<node TEXT="git add -u" ID="ID_1749869207" CREATED="1565291538925" MODIFIED="1565291540354"/>
+<node TEXT="git add &lt;new file&gt;" ID="ID_1215792787" CREATED="1565291540634" MODIFIED="1565291545009"/>
+</node>
+<node TEXT="git commit -m &lt;comment string&gt;" ID="ID_1229378872" CREATED="1565291552471" MODIFIED="1565291558473"/>
+<node TEXT="git log" ID="ID_719072926" CREATED="1565291561954" MODIFIED="1565291562940">
+<node TEXT="git log --name-status" ID="ID_604077238" CREATED="1565291561954" MODIFIED="1565291569843"/>
+</node>
+<node TEXT="git push" ID="ID_1135416079" CREATED="1565291693893" MODIFIED="1565291696238"/>
+<node TEXT="git pull" ID="ID_285050034" CREATED="1565291696451" MODIFIED="1565291697764"/>
+<node TEXT="git checkout &lt;repo url&gt;" ID="ID_1565299159" CREATED="1565291715628" MODIFIED="1565291725935"/>
+<node TEXT="branches" ID="ID_794583261" CREATED="1565291701269" MODIFIED="1565291702484"/>
+</node>
+</node>
+</map>
