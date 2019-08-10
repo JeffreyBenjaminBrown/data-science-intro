@@ -1,0 +1,113 @@
+* terms
+** command line, console
+** interpreter
+** compile
+*** compile-time and runtime
+** execute = run
+** algorithm = method
+** errors
+*** exception = an expected kind of error
+*** bug = an unexpected kind of error
+* python
+** what's good in python
+*** huge user base
+**** maybe the biggest?
+*** libraries for everything
+*** long history (since the early 90s)
+*** fast, reliable
+** what's weird in python
+*** (it's pretty normal)
+*** indentation matters
+*** dynamic typing
+**** "if x is a list, do this; if it's a number, do that"
+**** static typing > dynamic typing
+*** "type puns"
+**** true + 3
+**** if []
+* coding
+** types
+*** a list of types
+**** numbers
+***** integers
+****** 0, 1, -1
+***** floating point
+****** 0.34
+***** long
+***** "char"?
+**** characters
+***** n, i
+***** \n
+***** \t
+**** list
+***** []
+***** [1,2,3]
+***** [1,2] + [3,4]
+**** set {}
+***** set()
+***** {1,2,3}
+**** dict {}
+*** how to check a type
+*** comparing data structures
+**** lists, sets, dictionaries
+**** speed
+*** defining your own
+** control structures
+*** functions
+**** nesting
+***** tail recursion
+*** if
+*** loops
+**** functions are strictly moore powerful
+***** but sometimes slower or less natural
+**** for
+**** while
+**** break and continue
+***** break in loops ~ return in functions
+**** nesting
+*** exceptions
+**** while True:*  try:**  x = int(input("Please enter a number: "))**  break*  except ValueError:**  print("Oops!  That was no valid number.  Try again...")
+**** class B(Exception):* pass  class C(B):* pass  class D(C):* pass  for cls in [B, C, D]:* try:** raise cls()* except D:** print("D")* except C:** print("C")* except B:** print("B")
+** advanced methods
+*** recursion
+**** mutual recursion
+*** higher-order programming
+**** map
+* human time
+** comments are good
+*** this includes README files
+*** per-function, per file, per project, per folder
+*** automated documentation is awesome
+** pseudocode is good
+** cleaning data is hard
+*** cleaning data takes more time than analyzing it
+** testing (and debugging) is critical
+* quality control
+** use libraries
+** bugs
+*** type errors
+*** copying without complete modification
+*** heisenbugs
+** tests
+*** compile-time v. runtime errors
+*** print statements
+*** assertions
+*** test frameworks
+*** TDD
+** Makefiles
+* VCS and git
+** git init
+** git add
+*** git add -u
+*** git add <new file>
+** git commit -m <comment string>
+** git log
+*** git log --name-status
+** git push
+** git pull
+** git checkout <repo url>
+** branches
+* skipped
+** break and continue
+*** break in loops ~ return in functions
+** balanced subdivision
+*** quicksort
